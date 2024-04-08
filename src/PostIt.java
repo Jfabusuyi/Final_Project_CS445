@@ -41,9 +41,9 @@ public class PostIt {
     @Override
     public String toString() {
         return "PostIt{" +
-                "pageNumber=" + pageNumber +
-                ", note='" + note + '\'' +
-                ", color='" + color + '\'' +
+                "pageNumber= " + pageNumber +
+                ", note= '" + note + '\'' +
+                ", color= '" + color + '\'' +
                 '}';
     }
 }

@@ -6,11 +6,11 @@ import java.util.Random;
 public class Book {
 
     // In the actual implementation, this class would include a File pdf variable
-    protected String title;
-    protected String author;
-    protected String tag;
-    protected int totalPages;
-    protected int currentPage;
+    private String title;
+    private String author;
+    private String tag;
+    private int totalPages;
+    private int currentPage;
 
     // Allows all annotation methods to be used through the book
     protected Annotations annotation;

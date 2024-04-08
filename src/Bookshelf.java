@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Bookshelf {
-   String shelfName;
+   private String shelfName;
 
-   public ArrayList<Book> Bookshelf = new ArrayList<Book>();
+   private ArrayList<Book> Bookshelf = new ArrayList<Book>();
 
    public Bookshelf(String name) {
       this.shelfName = name;
